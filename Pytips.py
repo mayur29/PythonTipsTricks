@@ -26,3 +26,26 @@ clubs = ['manutd','astonvilla','mancity','chelsea']
 
 for name,club in zip(names,clubs):
     print(f'{names} below to {clubs}')
+
+a,b = (1,2)
+print(a,b)
+
+a,_ =(1,2)
+print(a)
+
+a,b,*c = (1,2,3,4,5)
+print(f'{a} and {b} and {c}')
+
+
+class Person():
+    pass 
+
+person = Person()
+person.First = 'Wayne'
+person.Second = 'Ronney'
+
+print(person.First)
+first_key = 'First'
+
+setattr(person,'first_key','Wayne')
+print(getattr(person,first_key))
