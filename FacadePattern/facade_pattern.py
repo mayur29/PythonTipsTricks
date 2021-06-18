@@ -1,6 +1,7 @@
 class Cook(object):
     # Facade class
     def Preparedish(self):
+        #All Classes and methods
         self.cutter = Cutter()
         self.cutter.cutVegetables()
         self.boiler = Boiler()
