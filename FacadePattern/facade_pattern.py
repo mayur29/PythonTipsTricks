@@ -1,4 +1,5 @@
 class Cook(object):
+    # Facade class
     def Preparedish(self):
         self.cutter = Cutter()
         self.cutter.cutVegetables()
