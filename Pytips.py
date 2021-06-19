@@ -49,3 +49,9 @@ first_key = 'First'
 
 setattr(person,'first_key','Wayne')
 print(getattr(person,first_key))
+
+
+new_list = [x for x in range(10)] #list comprehension
+new_dict = {x:x+1 for x in range(10)} #dictionary comprehension
+new_set = {x for x in range(10)} #set comprehension
+new_gen = (x for x in range(10)) #generator comprehension
