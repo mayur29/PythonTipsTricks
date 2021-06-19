@@ -7,7 +7,7 @@ def Check(func):
         func(a,b)
     return validate
 
-@Check
+@Check # Decorator 
 def divide( a,b) :
     print(a/b)
 
