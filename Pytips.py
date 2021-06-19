@@ -49,3 +49,11 @@ first_key = 'First'
 
 setattr(person,'first_key','Wayne')
 print(getattr(person,first_key))
+
+def multiply(n):
+    state = n
+    while True:
+        state = state * 2
+        yield state
+num = multiply(3)
+print(next(num)) # 6
